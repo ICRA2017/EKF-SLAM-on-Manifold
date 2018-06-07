@@ -6,7 +6,7 @@ if nargin < 1
     load('data.mat');
 end
 
-% addpath('Math_Liegroup/');
+addpath('../lie_utils');
 
 % load pre-given data: odometry and observations
 data_matrix = data.state;

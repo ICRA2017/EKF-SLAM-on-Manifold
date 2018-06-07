@@ -5,6 +5,8 @@ if nargin < 1
     load('./data.mat');
 end
 
+addpath('../lie_utils')
+
 data_matrix = data.state;
 odo_cov = data.odom_cov;   % constant variable
 obs_cov = data.obse_cov;   % constant variable

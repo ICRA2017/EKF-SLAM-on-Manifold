@@ -6,6 +6,8 @@ if nargin < 1
     load('./data.mat');
 end
 
+addpath('../lie_utils')
+
 data_matrix = data.state;
 
 odom_sigma = data.odom_sigma;
