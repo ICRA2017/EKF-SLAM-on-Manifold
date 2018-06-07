@@ -44,7 +44,6 @@ for example,
 ```
 >> cd datagen_3d
 >> gen_data
->>
 ```
 ![data](https://raw.githubusercontent.com/ICRA2017/EKF-SLAM-on-Manifold/reproducible/datagen_3d/gen_data.png)
 ```
