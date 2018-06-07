@@ -42,6 +42,17 @@ for example,
 * Ubuntu 14.04.5
 
 ```
-datagen_3d/gen_data.m
+>> cd datagen_3d
+>> gen_data
+>>
 ```
 ![data](https://raw.githubusercontent.com/ICRA2017/EKF-SLAM-on-Manifold/reproducible/datagen_3d/gen_data.png)
+```
+>> copyfile data.mat ../f_ekf_3d
+>> cd ../f_ekf_3d
+>> load data.mat
+>> estimation_results = FEKF_SLAM(data);
+>> FEKF_plot_estimation(estimation_results, data)
+```
+![estimation](https://raw.githubusercontent.com/ICRA2017/EKF-SLAM-on-Manifold/reproducible/f_ekf_3d/FEKF_plot_estimation.png)
+```
