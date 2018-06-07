@@ -54,4 +54,3 @@ for example,
 >> FEKF_plot_estimation(estimation_results, data)
 ```
 ![estimation](https://raw.githubusercontent.com/ICRA2017/EKF-SLAM-on-Manifold/reproducible/f_ekf_3d/FEKF_plot_estimation.png)
-```
