@@ -35,3 +35,13 @@ for example,
 If you want to perform Monte Carlo test for three filters:
 for example, 
 (1)   run "./multi_comparison_3d.m" and the comparsion will be displayed
+
+## Tests
+* Matlab 8.5.0.197613 (R2015a)
+* 64-bit
+* Ubuntu 14.04.5
+
+```
+datagen_3d/gen_data.m
+```
+![data](https://raw.githubusercontent.com/ICRA2017/EKF-SLAM-on-Manifold/reproducible/datagen_3d/gen_data.png)
