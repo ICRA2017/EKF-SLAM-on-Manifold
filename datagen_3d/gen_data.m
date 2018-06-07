@@ -6,7 +6,7 @@ if nargin < 1
     do_vis = 1;
 end
 
-%addpath('lie_utils/');
+addpath('../lie_utils/');
 config;
 
 % step size
